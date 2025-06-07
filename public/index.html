@@ -4,30 +4,81 @@
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
+    <meta name="theme-color" content="#667eea" />
+    
+    <!-- SEO Meta Tags -->
+    <title>Password Generator - Create Strong, Secure Passwords Online Free</title>
+    <meta name="description" content="Generate strong, secure passwords instantly with our free password generator. Customize length, include symbols, numbers, and letters. Copy passwords easily. No registration required." />
+    <meta name="keywords" content="password generator, strong password, secure password, random password, password creator, password maker, online password generator" />
+    <meta name="author" content="Password Generator Tool" />
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Password Generator - Create Strong, Secure Passwords Online Free" />
+    <meta property="og:description" content="Generate strong, secure passwords instantly with our free password generator. Customize length, include symbols, numbers, and letters." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://password-generator.example.com" />
+    <meta property="og:image" content="%PUBLIC_URL%/og-image.png" />
+    <meta property="og:site_name" content="Password Generator" />
+    
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Password Generator - Create Strong, Secure Passwords" />
+    <meta name="twitter:description" content="Generate strong, secure passwords instantly with our free password generator. Customize length, include symbols, numbers, and letters." />
+    <meta name="twitter:image" content="%PUBLIC_URL%/og-image.png" />
+    
+    <!-- Additional SEO -->
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
+    <link rel="canonical" href="https://password-generator.example.com" />
+    
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- App Icons -->
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Password Generator",
+      "description": "Generate strong, secure passwords instantly with our free password generator. Customize length, include symbols, numbers, and letters.",
+      "url": "https://password-generator.example.com",
+      "applicationCategory": "SecurityApplication",
+      "operatingSystem": "Web Browser",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "Password Generator Tool"
+      },
+      "features": [
+        "Customizable password length (8-50 characters)",
+        "Include/exclude uppercase letters, lowercase letters, numbers, symbols",
+        "Exclude confusing characters option",
+        "Generate multiple passwords at once",
+        "Real-time password strength indicator",
+        "One-click copy to clipboard",
+        "No registration required",
+        "Free to use"
+      ]
+    }
+    </script>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <noscript>
+      <div style="text-align: center; padding: 50px; font-family: Arial, sans-serif;">
+        <h1>🔐 Password Generator</h1>
+        <p>You need to enable JavaScript to use our password generator.</p>
+        <p>Our tool helps you create strong, secure passwords to protect your accounts.</p>
+      </div>
+    </noscript>
     <div id="root"></div>
     <!--
       This HTML file is a template.
